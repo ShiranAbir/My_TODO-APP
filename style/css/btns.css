@@ -24,3 +24,21 @@
     border-radius: 50%;
     opacity: 1;
  }
+ 
+.next{
+    width: 80px;
+    height: 40px;
+    background-color: #1a73e8;
+    color: #FFFF;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-weight: 600;
+    letter-spacing: .0107142857em;
+    font-size: .875rem;
+    text-transform: none;
+    border-radius: 6px;
+    line-height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}

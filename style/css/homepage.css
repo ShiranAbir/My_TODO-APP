@@ -1,0 +1,163 @@
+.sign-in{
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    display: block;
+    flex-shrink: 0;
+    margin: 0 auto;
+    min-height: 0;
+    width: 450px;
+    text-align: center;   
+    margin-top: 100px;
+    height: 400px;
+}
+
+.username:focus{
+    transition: .2s;
+}
+
+.sign-in-label {
+    color: #202124;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+    word-break: break-word;
+    margin-bottom: 30px;
+}
+
+.username,.password {
+    height: 56px;
+    padding-top: 0;
+    outline: none;
+    position: relative;
+    border: 1px solid #1a73e8;
+    padding: 5px;
+}
+
+.username-placeholder {
+    background: #fff;
+    display: block;
+    position: relative;
+    bottom: 40px;
+    box-sizing: border-box;
+    color: #5f6368;
+    font-size: 16px;
+    font-weight: 400;
+    left: 133px;
+    max-width: calc(100% - (2*8px));
+    overflow: hidden;
+    padding: 0 8px;
+    text-overflow: ellipsis;
+    transition: transform 150ms cubic-bezier(0.4,0,0.2,1),opacity 150ms cubic-bezier(0.4,0,0.2,1);
+    white-space: nowrap;
+    width: 68px;
+    z-index: 1;
+}
+
+.username-placeholder {
+    color: #1a73e8;
+    transform: scale(0.75) translateY(-39px);
+}
+
+.password-placeholder {
+    background: #fff;
+    display: block;
+    position: relative;
+    bottom: 40px;
+    box-sizing: border-box;
+    color: #1a73e8;
+    font-size: 16px;
+    font-weight: 400;
+    left: 133px;
+    max-width: calc(100% - (2*8px));
+    padding: 0 8px;
+    text-overflow: ellipsis;
+    transition: transform 150ms cubic-bezier(0.4,0,0.2,1),opacity 150ms cubic-bezier(0.4,0,0.2,1);
+    white-space: nowrap;
+    width: 88px;
+    z-index: 1;
+    color: #1a73e8;
+    transform: scale(0.75) translateY(-39px);
+}
+
+/* .slide-fade-enter-active {
+    transition: all 0.2s ease-out;
+}
+  
+.slide-fade-leave-active {
+    transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
+} */
+
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+    color: #1a73e8;
+    transform: scale(0.75) translateY(-39px);
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.main-label{
+    margin-top: 25px;
+}
+
+.about{
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    margin: auto;
+    color: #5f6368;
+    text-align: center;
+    margin-top: 70px;
+    border-top: 1px solid #f1f3f4;
+}
+
+.about .about-title{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.about-shiran{
+    background-image: url(../../images/shiran.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 240px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    list-style: none;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.shiran-title{
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    color: #555;
+    line-height: 42px;
+}
+
+.linkdin-icon{
+    background-image: url(../../images/linkedin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+    position: fixed;
+}
+
+.linkdin-icon:hover{
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.footer{
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    border-top: 1px solid #f1f3f4;
+    padding: 10px;
+}

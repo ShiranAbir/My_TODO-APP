@@ -3,6 +3,7 @@ import todoHeader from "../cmps/todo-header.cmp.js"
 import todoFilter from "../cmps/todo-filter.cmp.js"
 import { todoService } from "../services/todo.service.js"
 import userModal from "../cmps/user-modal.cmp.js"
+import footercmp from "../cmps/footer.cmp.js"
 
 
 export default {
@@ -15,6 +16,9 @@ export default {
               <input @change.prevent="addTodo" type="text" placeholder="Add todo" v-model="todoToEdit.title" />
             </section>
                 <userModal @closeModal="setModalclose" v-if="openModal"/>
+                <div class="footer">
+                    <p>Created and designed by Shiran Abir © 2022</p>
+                </div>
         </section>
     `,
     data() {
@@ -51,6 +55,7 @@ export default {
         todoHeader,
         todoFilter,
         userModal,
+        footercmp,
       },
     
 

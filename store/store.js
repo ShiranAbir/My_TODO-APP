@@ -8,7 +8,7 @@ export const myStore = Vuex.createStore({
         return {
             user: userService.getLoggedinUser(),
             todos: todoService.query(),
-            user: {fullName: 'Shiran Abir', activities: [{txt:
+            user: {username: 'ShiranAbir',password:'1234', activities: [{txt:
                 'Added a Todo', at: 1523873242735}]}
         }
     },
@@ -35,12 +35,20 @@ export const myStore = Vuex.createStore({
             }
             state.todos = todos.filter(todo => todo.isDone.toString() === filterTerm)
         },
+
     },
     getters: {
         progressPercent({ todos }) {
             if (!todos.length) return 0
             var doneTodos = todos.filter(todo => todo.isDone === true)
             return ((doneTodos.length / todos.length * 100).toFixed(2))
+        },
+        checkUser(state){
+            return function (login) {
+                if (state.user.username===login.username&&
+                    state.user.password===login.password)
+                    return true
+            }
         },
     }
 })
