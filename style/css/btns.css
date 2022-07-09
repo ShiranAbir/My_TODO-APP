@@ -1,0 +1,26 @@
+.delete-todo-btn{
+    background-image: url(../../images/delete-todo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    height: 30px;
+    opacity: 0.54;
+    width: 30px;
+    align-items: center;
+    border: none;
+    display: inline-flex; 
+    justify-content: center; 
+    outline: none;
+    grid-area: delete;
+    position:absolute;
+    display: flex;
+    right: 2em;
+    cursor: pointer;
+    margin-top: 7px;
+ }
+
+.round-hover:hover {
+    background-color: #eee;
+    border-radius: 50%;
+    opacity: 1;
+ }

@@ -1,0 +1,54 @@
+
+.user-modal{
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    display:block;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100vh;
+    border-left: 1px solid #f1f3f4;
+}
+
+.sub-avatar{
+    position: fixed;
+    background-color: #78909C;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    right: 1.5em;
+    top: 1.5em;
+    cursor: pointer;
+}
+
+.sub-avatar p{
+    font-size: 2rem;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    line-height: 50px;
+}
+
+.sub-avatar:hover{
+    box-shadow: -1px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%), 0px 5px 5px -3px rgb(0 0 0 / 20%);
+}
+
+.home-btn{
+    background-image: url(../../images/7115252_google_logo_new_home_icon.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: center;
+    background-position-y: center;
+    height: 63px;    
+    width: 63px;
+    position: absolute;
+    display: flex;
+    left: 20px;
+    top: 110px;
+}
+
+.round-hover-modal:hover {
+    background-color: #eee;
+    border-radius: 50%;
+ }

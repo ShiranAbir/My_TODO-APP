@@ -1,0 +1,27 @@
+
+.todo-list{
+    margin-left: 2em;
+}
+
+.todo{
+    border-bottom: 1px solid #f1f3f4; 
+    height: 3em;
+    display: flex;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    color: #202124; 
+}
+
+.todo p{
+    margin-left: 1em;
+    margin-top: 11px;
+}
+
+.todo:hover{
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+   }
+
+.done{
+    text-decoration: line-through;
+}
+

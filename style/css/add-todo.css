@@ -1,0 +1,27 @@
+
+.add-todo{
+    display:block;
+    position:relative;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 1px solid #f1f3f4; 
+    margin-left: 2em;
+}
+
+.add-todo:hover{
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+   }
+
+.add-todo input{
+    border: 0!important;
+    width: 80vw;
+}
+
+.add-todo input::placeholder{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+}
+
+.add-todo input:focus {
+    outline: none;
+}
